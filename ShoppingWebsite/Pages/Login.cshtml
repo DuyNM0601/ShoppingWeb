@@ -1,0 +1,62 @@
+﻿@page
+@model ShoppingWebsite.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Register</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="newAccount.UserName"></label>
+        <input asp-for="newAccount.UserName" class="form-control" />
+        <span asp-validation-for="newAccount.UserName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="newAccount.Password"></label>
+        <input asp-for="newAccount.Password" class="form-control" type="password" />
+        <span asp-validation-for="newAccount.Password" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="newAccount.FullName"></label>
+        <input asp-for="newAccount.FullName" class="form-control" />
+        <span asp-validation-for="newAccount.FullName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="newAccount.Type"></label>
+        <input asp-for="newAccount.Type" class="form-control" />
+        <span asp-validation-for="newAccount.Type" class="text-danger"></span>
+    </div>
+    <button type="submit" name="handler" value="AddAccount">Add</button>
+</form>
+
+<h2>List of Accounts</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Full Name</th>
+            <th>Type</th>
+            <th>Action</th> <!-- Thêm cột Action -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model.Accounts)
+        {
+            <tr>
+                <td>@account.UserName</td>
+                <td>@account.Password</td>
+                <td>@account.FullName</td>
+                <td>@account.Type</td>
+               
+                <td>
+                    <form method="get" asp-page="/UpdateAccount">
+                        <input type="hidden" name="accountId" value="@account.AccountID" />
+                        <button type="submit">Edit</button>
+                    </form>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
