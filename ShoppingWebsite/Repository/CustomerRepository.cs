@@ -23,7 +23,7 @@ namespace ShoppingWebsite.Repository
             var checkDb = myDb.Customers.FirstOrDefault(c => c.CustomerId == customerId);
             if (checkDb != null)
             {
-                checkDb.Passoword = customer.Passoword;
+                checkDb.Password = customer.Password;
                 checkDb.ContactName = customer.ContactName;
                 checkDb.Address = customer.Address;
                 checkDb.Phone = customer.Phone;
@@ -37,8 +37,13 @@ namespace ShoppingWebsite.Repository
             if (checkCustomerDb != null)
             {
                 myDb.Customers.Remove(checkCustomerDb);
-                myDb.SaveChanges();
+                
             }
+        }
+
+        public Customer checkLogin(string contactName, string password)
+        {
+            return myDb.Customers.FirstOrDefault(c => c.ContactName == contactName && c.Password == password);
         }
 
         public List<Customer> GetList()

@@ -5,49 +5,76 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShoppingWebsite
 build_property.RootNamespace = ShoppingWebsite
-build_property.ProjectDir = C:\Users\manhd\Desktop\ShoppingWebsite\ShoppingWebsite\
+build_property.ProjectDir = C:\Users\manhd\OneDrive\Desktop\ShoppingWeb\ShoppingWebsite\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\manhd\Desktop\ShoppingWebsite\ShoppingWebsite
+build_property.MSBuildProjectDirectory = C:\Users\manhd\OneDrive\Desktop\ShoppingWeb\ShoppingWebsite
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/manhd/Desktop/ShoppingWebsite/ShoppingWebsite/Pages/Error.cshtml]
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manhd/Desktop/ShoppingWebsite/ShoppingWebsite/Pages/Index.cshtml]
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manhd/Desktop/ShoppingWebsite/ShoppingWebsite/Pages/Login.cshtml]
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manhd/Desktop/ShoppingWebsite/ShoppingWebsite/Pages/Privacy.cshtml]
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/LoginAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5BY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manhd/Desktop/ShoppingWebsite/ShoppingWebsite/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/RegisterCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXJDdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manhd/Desktop/ShoppingWebsite/ShoppingWebsite/Pages/UpdateAccount.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlQWNjb3VudC5jc2h0bWw=
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/Staff/Customer/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcQ3VzdG9tZXJcVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manhd/Desktop/ShoppingWebsite/ShoppingWebsite/Pages/_ViewImports.cshtml]
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/Staff/Order/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcT3JkZXJcVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/Staff/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/Staff/Product/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcUHJvZHVjdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/Staff/Staffhome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmZcU3RhZmZob21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/UpdateCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manhd/Desktop/ShoppingWebsite/ShoppingWebsite/Pages/_ViewStart.cshtml]
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/manhd/Desktop/ShoppingWebsite/ShoppingWebsite/Pages/Shared/_Layout.cshtml]
+[C:/Users/manhd/OneDrive/Desktop/ShoppingWeb/ShoppingWebsite/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-cvpje9ug6e

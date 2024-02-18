@@ -17,6 +17,7 @@ builder.Services.AddDbContext<MyDbContext>(options =>
 builder.Services.AddTransient<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddTransient<ICustomerRepository, CustomerRepository>();
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
 
 var app = builder.Build();
 

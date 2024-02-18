@@ -1,0 +1,32 @@
+﻿@page
+@model ShoppingWebsite.Pages.Staff.StaffhomeModel
+@{
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="text-center">
+                <h1 class="display-4">Staff Home Page</h1>
+            </div>
+            <form method="get" class="mt-5">
+                <div class="form-group">
+                    <div class="col mt-3">
+                        <button asp-page="/Admin/Car/Index" type="submit" class="btn btn-primary">Manage Prodcut Information</button>
+                    </div>
+                    <div class="col mt-3">
+                        <button asp-page="/Admin/Customer/Index" type="submit" class="btn btn-primary">Manage Customer Information</button>
+                    </div>
+                    <div class="col mt-3">
+                        <button asp-page="/Admin/Renting/Index" type="submit" class="btn btn-primary">Manage Order Information</button>
+                    </div>
+                </div>
+            </form>
+            <form method="post" asp-page-handler="Logout">
+                <div class="col mt-3">
+                    <button type="submit" class="btn btn-primary">Logout</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+﻿@page
+@model ShoppingWebsite.Pages.UpdateCustomerModel
+@{
+    ViewData["Title"] = "Edit Customer";
+}
+<h1>Edit Customer</h1>
+<form method="post">
+    <input type="hidden" asp-for="Customer.CustomerId" />
+
+    <div class="form-group">
+        <label asp-for="Customer.ContactName"></label>
+        <input asp-for="Customer.ContactName" class="form-control" />
+        <span asp-validation-for="Customer.ContactName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Customer.Password"></label>
+        <input asp-for="Customer.Password" class="form-control"/>
+        <span asp-validation-for="Customer.Password" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Customer.Address"></label>
+        <input asp-for="Customer.Address" class="form-control" />
+        <span asp-validation-for="Customer.Address" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Customer.Phone"></label>
+        <input asp-for="Customer.Phone" class="form-control" />
+        <span asp-validation-for="Customer.Phone" class="text-danger"></span>
+    </div>
+
+    <button type="submit">Update</button>
+    <button type="submit" name="handler" value="Delete">Delete</button>
+</form>

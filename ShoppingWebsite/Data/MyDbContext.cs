@@ -9,8 +9,9 @@ namespace ShoppingWebsite.Data
 
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
         
-        public DbSet<Accounts> Accounts { get; set; }
+        public DbSet<Accounts> Account { get; set; }
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Products> Products { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

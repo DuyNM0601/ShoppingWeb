@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manhd\\Desktop\\ShoppingWebsite\\ShoppingWebsite\\ShoppingWebsite.csproj": {}
+    "C:\\Users\\manhd\\OneDrive\\Desktop\\ShoppingWeb\\ShoppingWebsite\\ShoppingWebsite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manhd\\Desktop\\ShoppingWebsite\\ShoppingWebsite\\ShoppingWebsite.csproj": {
+    "C:\\Users\\manhd\\OneDrive\\Desktop\\ShoppingWeb\\ShoppingWebsite\\ShoppingWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manhd\\Desktop\\ShoppingWebsite\\ShoppingWebsite\\ShoppingWebsite.csproj",
+        "projectUniqueName": "C:\\Users\\manhd\\OneDrive\\Desktop\\ShoppingWeb\\ShoppingWebsite\\ShoppingWebsite.csproj",
         "projectName": "ShoppingWebsite",
-        "projectPath": "C:\\Users\\manhd\\Desktop\\ShoppingWebsite\\ShoppingWebsite\\ShoppingWebsite.csproj",
+        "projectPath": "C:\\Users\\manhd\\OneDrive\\Desktop\\ShoppingWeb\\ShoppingWebsite\\ShoppingWebsite.csproj",
         "packagesPath": "C:\\Users\\manhd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manhd\\Desktop\\ShoppingWebsite\\ShoppingWebsite\\obj\\",
+        "outputPath": "C:\\Users\\manhd\\OneDrive\\Desktop\\ShoppingWeb\\ShoppingWebsite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.419\\RuntimeIdentifierGraph.json"
         }
       }
     }

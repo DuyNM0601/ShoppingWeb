@@ -9,5 +9,6 @@ namespace ShoppingWebsite.Repository
         void Delete(int customer);
         List<Customer> GetList();
         Customer GetById(int id);
+        public Customer checkLogin(string contactName, string password);
     }
 }

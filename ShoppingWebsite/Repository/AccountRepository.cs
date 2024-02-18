@@ -15,7 +15,8 @@ namespace ShoppingWebsite.Repository
         public void Create(Accounts accounts)
         {
             
-            _context.Accounts.Add(accounts);
+            _context.Account.Add(accounts);
+            
            
         }
 
@@ -23,7 +24,7 @@ namespace ShoppingWebsite.Repository
         {
            
 
-            var check = _context.Accounts.FirstOrDefault(a => a.AccountID == accountId);
+            var check = _context.Account.FirstOrDefault(a => a.AccountID == accountId);
             if (check != null)
             {
                 
@@ -43,19 +44,24 @@ namespace ShoppingWebsite.Repository
             var account = GetById(accountId);
             if (account != null)
             {
-                _context.Accounts.Remove(account);
+                _context.Account.Remove(account);
                 
             }
         }
 
         public List<Accounts> GetList()
         {
-            return _context.Accounts.ToList();
+            return _context.Account.ToList();
         }
 
         public Accounts GetById(int accountId)
         {
-            return _context.Accounts.FirstOrDefault(c => c.AccountID == accountId);
+            return _context.Account.FirstOrDefault(c => c.AccountID == accountId);
+        }
+
+        public Accounts GetAccount(string username, string password)
+        {
+            return _context.Account.FirstOrDefault(e => e.UserName == username && e.Password == password);
         }
     }
 }

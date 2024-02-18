@@ -9,5 +9,6 @@ namespace ShoppingWebsite.Repository
         void Delete(int accountId);
         List<Accounts> GetList();
         Accounts GetById(int accountId);
+        Accounts GetAccount(string username, string password);
     }
 }

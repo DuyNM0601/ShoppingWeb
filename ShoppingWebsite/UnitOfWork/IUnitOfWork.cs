@@ -6,6 +6,11 @@ namespace ShoppingWebsite.UnitOfWork
     {
         IAccountRepository AccountRepository { get; }
         ICustomerRepository CustomerRepository { get; }
+        IProductRepository ProductRepository { get; }
+
+        void BeginTransaction();
+        void CommitTransaction();
+        void RollbackTransaction();
         void Save();
     }
 }
